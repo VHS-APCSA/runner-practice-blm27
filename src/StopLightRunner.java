@@ -6,7 +6,5 @@ public class StopLightRunner {
 		StopLight light = new StopLight(Color.green);
 		light.changeLight();
 		System.out.print(light);
-		
 	}
-
 }
