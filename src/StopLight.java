@@ -50,4 +50,3 @@ public class StopLight
 		return str;
 	}
 }
-
