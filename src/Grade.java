@@ -32,11 +32,11 @@ public class Grade
 		}
 		
 	}
-	public int graduate(String mark)
+	//public int graduate(String mark)//
 	{
-		if(mark.equals("A") || )
+		//if(mark.equals("A") || )//
 		{
-			if(grade.equals("freshman"))
+			//if(grade.equals("freshman"))
 		}
 	}
 	
