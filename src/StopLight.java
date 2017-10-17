@@ -34,18 +34,18 @@ public class StopLight
 	}
 	public String toString()
 	{
-		String str = "";
+		String str = "The color of the stoplight is ";
 		if(color.equals(Color.green)) 
 		{
-			str = "The color of the stoplight is green.";
+			str += "green.";
 		}
 		else if(color.equals(Color.yellow))
 		{
-			str = "The color of the stoplight is yellow.";
+			str += "yellow.";
 		}
 		else if(color.equals(Color.red))
 		{
-			str = "The color of the stoplight is red.";
+			str += "red.";
 		}
 		return str;
 	}
