@@ -16,21 +16,37 @@ public class Grade
 	public void setGrade(String grade) {
 		this.grade = grade;
 	}
-	public void nextGrade()
+	public int graduate(String mark)
 	{
-		if(grade.equals("freshman"))
+		if(mark.equals("A") || mark.equals("B") || mark.equals("C"))
 		{
-			grade = "sophomore";
+			if(grade.equals("Freshman"))
+			{
+				grade = "Sophomore";
+			}
+			else if(grade.equals("Sophomore"))
+			{
+				grade = "Junior";
+			}
+			else if(grade.equals("Junior"))
+			{
+				grade = "Senior";
+			}
+			else
+			{
+				grade = "Freshman";
+			}
+			return 1;
 		}
-		else if(grade.equals("sophomore"))
+		else if(mark.equals("D") || mark.equals("F"))
 		{
-			grade = "junior";
+			return 0;
 		}
-		else if(grade.equals("junior"))
+		else
 		{
-			grade = "senior";
+			return -1;
 		}
-		
+
 	}
 	//public int graduate(String mark)//
 	{
@@ -39,5 +55,5 @@ public class Grade
 			//if(grade.equals("freshman"))
 		}
 	}
-	
+
 }
