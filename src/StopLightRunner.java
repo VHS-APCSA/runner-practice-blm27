@@ -4,7 +4,18 @@ public class StopLightRunner {
 	public static void main(String[] args) 
 	{
 		StopLight light = new StopLight(Color.green);
+		System.out.print(light + "\n");
 		light.changeLight();
-		System.out.print(light);
+		System.out.print(light + "\n");
+		light.changeLight();
+		System.out.print(light + "\n");
+		light.changeLight();
+		System.out.print(light + "\n");
+		light.changeLight();
+		System.out.print(light + "\n");
+		light.changeLight();
+		System.out.print(light + "\n");
+		light.changeLight();
+		System.out.print(light + "\n");
 	}
 }
